@@ -8,8 +8,38 @@
         <servlet-name>InputServlet</servlet-name>
         <servlet-class>com.example.pz1.InputServlet</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>task2Servlet</servlet-name>
+        <servlet-class>com.example.pz1.task2Servlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>task3Servlet</servlet-name>
+            <servlet-class>com.example.pz1.task3Servlet</servlet-class>
+    </servlet>
+
+
+
     <servlet-mapping>
         <servlet-name>InputServlet</servlet-name>
         <url-pattern>/form</url-pattern>
     </servlet-mapping>
+
+
+
+    <servlet-mapping>
+        <servlet-name>task2Servlet</servlet-name>
+        <url-pattern>/task2</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet-mapping>
+        <servlet-name>task3Servlet</servlet-name>
+        <url-pattern>/task3</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
